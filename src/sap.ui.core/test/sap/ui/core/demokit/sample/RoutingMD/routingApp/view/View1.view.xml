@@ -1,0 +1,14 @@
+<View
+	xmlns="sap.m"
+	xmlns:layout="sap.ui.layout"
+	controllerName="sap.ui.core.sample.RoutingMD.routingApp.controller.View1">
+	<Page
+		title="First Page">
+		<content>
+			<layout:VerticalLayout>
+				<Button text="To the second detail Page" press="onToPage2"/>
+				<Link id="link" text="A link to the second detail Page"/>
+			</layout:VerticalLayout>
+		</content>
+	</Page>
+</View>
